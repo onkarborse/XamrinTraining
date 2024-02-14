@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyFirstApp.MyNewPage" Padding="20">
+    
+     <!--<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <Label Text="hello" x:Name="label1"></Label>
+    <Slider ValueChanged="Slider_ValueChanged" x:Name="slider1"></Slider>
+    <Entry Placeholder="Enter value" TextChanged="fName_TextChanged" x:Name="fName"/>
+    <Label Text="value" x:Name="label1"></Label>
+    <Label Text="Full Name" x:Name="label1"></Label>
+    <Entry Placeholder="Enter password" x:Name="lName" />
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Orientation="Horizontal">
+    <Button Text="Login" Clicked="Button_Clicked_1"></Button>
+    <Button Text="Clear" Clicked="Button_Clicked_2"></Button>
+    </StackLayout>-->
+    <ContentPage.Padding>
+<OnPlatform x:TypeArguments="Thickness"
+			Android="0, 50, 0, 0"
+            iOS="0, 80, 0, 0"
+			WinPhone="20, 40, 20, 20">
+</OnPlatform>
+</ContentPage.Padding>
+            <Label Text="Hello"/>
+    <!--<Label Text="{Binding Source={x:Reference slider1},
+            Path=Value,StringFormat='value is {0:F2}'}"
+            Opacity="{Binding Source={x:Reference slider1},
+                Path=Value}"
+            x:Name="label1"></Label>
+    <Slider x:Name="slider1"></Slider>-->
+   
+    </ContentPage>
+
+
