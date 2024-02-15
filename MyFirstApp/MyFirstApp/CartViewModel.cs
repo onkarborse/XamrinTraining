@@ -86,4 +86,5 @@ namespace MyFirstApp
         public Command DivisionCommand { get; }
         public event PropertyChangedEventHandler PropertyChanged;
     }
+
 }
