@@ -10,7 +10,7 @@ namespace MyFirstApp
         {
             InitializeComponent();
 
-            MainPage = new MyNewPage();
+            MainPage = new Calculator();
         }
 
         protected override void OnStart ()
