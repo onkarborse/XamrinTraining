@@ -7,14 +7,13 @@
         <local:CartViewModel></local:CartViewModel>
     </ContentPage.BindingContext>
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-<Label Text="Calculator"></Label>
-
-<Entry Placeholder="First Number" Text="{Binding Num1}"></Entry>
-<Entry Placeholder="Secand Number" Text="{Binding Num2}"></Entry>
-<Label Text="{Binding Result}"></Label>
-<Button Text="Add" Command="{Binding AddCommand}"></Button>
-<Button Text="Substract" Command="{Binding SubstractCommand}"></Button>
-<Button Text="Multiplication" Command="{Binding MultiplicationCommand}"></Button>
-<Button Text="Division" Command="{Binding DivisionCommand}"></Button>
-</StackLayout>
+        <Label Text="Calculator"></Label>
+        <Entry Placeholder="First Number" Text="{Binding Num1}"></Entry>
+        <Entry Placeholder="Secand Number" Text="{Binding Num2}"></Entry>
+        <Label Text="{Binding Result}"></Label>
+        <Button Text="Add" Command="{Binding AddCommand}"></Button>
+        <Button Text="Substract" Command="{Binding SubstractCommand}"></Button>
+        <Button Text="Multiplication" Command="{Binding MultiplicationCommand}"></Button>
+        <Button Text="Division" Command="{Binding DivisionCommand}"></Button>
+    </StackLayout>
 </ContentPage>
