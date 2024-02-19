@@ -4,12 +4,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MyFirstApp.MyNewPage" Padding="40">
     <StackLayout>
-    <Label Text="Font Size" x:Name="label1"></Label>
-    <Slider ValueChanged="Slider_ValueChanged" x:Name="slider1" Maximum="50" 
+        <Label Text="Font Size" x:Name="label1"></Label>
+        <Slider ValueChanged="Slider_ValueChanged" x:Name="slider1" Maximum="50" 
 			Minimum="16"></Slider>
-     <Label Text="Thank you for downloading Visual Studio!" x:Name="label2" FontSize="16" TextColor="Red"></Label>
+        <Label Text="Thank you for downloading Visual Studio!" x:Name="label2" FontSize="16" TextColor="Red"></Label>
     </StackLayout>
-     <!--<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+    <!--<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
     <Label Text="hello" x:Name="label1"></Label>
     <Slider ValueChanged="Slider_ValueChanged" x:Name="slider1"></Slider>
     <Entry Placeholder="Enter value" TextChanged="fName_TextChanged" x:Name="fName"/>
@@ -27,14 +27,14 @@
 			WinPhone="20, 40, 20, 20">
 </OnPlatform>
 </ContentPage.Padding>-->
-           
+
     <!--<Label Text="{Binding Source={x:Reference slider1},
             Path=Value,StringFormat='value is {0:F2}'}"
             Opacity="{Binding Source={x:Reference slider1},
                 Path=Value}"
             x:Name="label1"></Label>
     <Slider x:Name="slider1"></Slider>-->
-   
-    </ContentPage>
+
+</ContentPage>
 
 

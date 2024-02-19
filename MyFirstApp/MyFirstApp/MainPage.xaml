@@ -22,11 +22,11 @@
         <Label Text="Hello world" x:Name="label1"></Label>
         <Button Text="Click Me!" Clicked="Button_Clicked_1"></Button>-->
         <Entry Placeholder="Enter your First name" x:Name="fName" />
-<Entry Placeholder="Enter your Last name" x:Name="lName" />
-<Label Text="Full Name" x:Name="label1"></Label>
-<Button Text="Click Me!" Clicked="Button_Clicked_1"></Button>
+        <Entry Placeholder="Enter your Last name" x:Name="lName" />
+        <Label Text="Full Name" x:Name="label1"></Label>
+        <Button Text="Click Me!" Clicked="Button_Clicked_1"></Button>
     </StackLayout>
-<!--<StackLayout>
+    <!--<StackLayout>
 
 </StackLayout>-->
 

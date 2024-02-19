@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="MyFirstApp.SwitchDemo" Padding="100">
+    <ContentPage.Content>
+        <!--<StackLayout>
+<Switch IsToggled="True" Toggled="Switch_Toggled"></Switch>
+<Label Text="Hello World" x:Name="l1"></Label>
+</StackLayout>-->
+
+        <StackLayout>
+            <Switch IsToggled="True" x:Name="s1"></Switch>
+            <Label Text="Using Code Behind" IsVisible="{Binding Source={x:Reference s1},Path=IsToggled}"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

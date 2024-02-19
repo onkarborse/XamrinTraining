@@ -5,36 +5,36 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MyFirstApp
-{	
-	public partial class MyNewPage : ContentPage
-	{	
-		//public MyNewPage ()
-		//{
-		//	InitializeComponent ();
-		//}
-  //      private void Button_Clicked_1(object sender, EventArgs e)
-  //      {
-  //          if (sender == "admin")
-  //          {
-  //              DisplayAlert("Login success", "Okay", "Cancel");
-  //          } else
-  //          {
-  //              DisplayAlert("Login failed", "Okay", "Cancel");
-  //          }
-  //      }
+{
+    public partial class MyNewPage : ContentPage
+    {
+        //public MyNewPage ()
+        //{
+        //	InitializeComponent ();
+        //}
+        //      private void Button_Clicked_1(object sender, EventArgs e)
+        //      {
+        //          if (sender == "admin")
+        //          {
+        //              DisplayAlert("Login success", "Okay", "Cancel");
+        //          } else
+        //          {
+        //              DisplayAlert("Login failed", "Okay", "Cancel");
+        //          }
+        //      }
 
-  //      private void Button_Clicked_2(object sender, EventArgs e)
-  //      {
-  //          label1.Text = fName.Text + " " + lName.Text;
-  //      }
-  //      void Button_Clicked(System.Object sender, System.EventArgs e)
-  //      {
-  //      }
+        //      private void Button_Clicked_2(object sender, EventArgs e)
+        //      {
+        //          label1.Text = fName.Text + " " + lName.Text;
+        //      }
+        //      void Button_Clicked(System.Object sender, System.EventArgs e)
+        //      {
+        //      }
 
         public MyNewPage()
         {
             InitializeComponent();
-            
+
             //label1.SetValue = 0;
             //Content = new Label
             //{
