@@ -10,7 +10,8 @@ namespace MyFirstApp
         {
             InitializeComponent();
 
-            MainPage = new ListView();
+            MainPage = new OrientationPage();
+           // MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart ()
